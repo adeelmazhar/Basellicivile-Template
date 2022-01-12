@@ -1,0 +1,772 @@
+<html>
+    <head>
+        <title>
+            Category Web Page
+        </title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <style>
+        .first-div
+        {
+            background-image: url('images3/banner1.png');
+            background-size: 100% 100%;
+            margin-bottom: 40px;
+        }
+        .first-div h5
+        {
+            color: orange;
+            margin-top: 20px;
+        }
+        .first-div h1
+        {
+            font-size: 75px;
+            font-weight: bold;
+            margin-top: -20px;
+            margin-left: -5px;
+            color: rgba(12, 12, 12, 0.692);
+        }
+        .first-div p
+        {
+            color: grey;
+        }
+        .menu
+        {
+            float: right;
+            padding-top: 10px;
+        }
+        .menu ul
+        {
+            list-style: none;
+            display: inline-flex;
+            color: white;
+        }
+        .menu ul a
+        {
+            text-decoration: none;
+            color: white;
+        }
+        .menu ul li
+        {
+            padding: 10px 20px;
+        }
+        .cap img
+        {
+            height: 480px;
+            width: 480px;
+            margin-left: 90px;
+        }
+        .button1
+        {
+            font-size: 20px;
+            margin-top: 40px;
+        }
+        .button1 a
+        {
+            background-color: orange;
+            color: whitesmoke;
+            text-decoration: none;
+            padding: 10px 30px;
+        }
+        .line1
+        {
+            height: 4px;
+            width: 50px;
+            background-color: orange;
+            margin-bottom: 30px;
+            margin-left: 10px;
+            margin-top: 20px;
+        }
+        .second-div
+        {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        .second-div h5
+        {
+            color: orange;
+        }
+        .second-div h1
+        {
+            color: rgba(12, 12, 12, 0.692);
+            font-size: 35px;
+            width: 50%;
+            font-weight: bold;
+        }
+        .second-div-image1
+        {
+            margin-top: -50px;
+        }
+        .second-div-image1 img
+        {
+            height: 300px;
+            width: 300px;
+        }
+        .second-div-image2
+        {
+            margin-top: -50px;
+        }
+        .second-div-image2 img
+        {
+            height: 300px;
+            width: 300px;
+        }
+        .b1
+        {
+            background-color: orange;
+            color: white;
+            padding: 10px 30px;
+            text-decoration: none;
+        }
+        .b2
+        {
+            background-color: orange;
+            color: white;
+            padding: 10px 40px;
+            text-decoration: none;
+        }
+        .third-div
+        {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        .third-div h6
+        {
+            color: orange;
+        }
+        .third-div h2
+        {
+            color: rgba(12, 12, 12, 0.692);
+            font-weight: bold;
+        }
+        .b3
+        {
+            margin-top: 50px;
+        }
+        .b3 a
+        {
+            background-color: orange;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+        .b4
+        {
+            margin-top: 10px;
+        }
+        .b4 a
+        {
+            background-color: orange;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+        .b5
+        {
+            margin-top: 80px;
+        }
+        .b5 a
+        {
+            background-color: orange;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+        .goggles img
+        {
+            height: 200px;
+            width: 200px;
+        }
+        .remote img
+        {
+            height: 200px;
+            width: 200px;
+        }
+        .gloves img
+        {
+            height: 200px;
+            width: 200px;
+        }
+        .fourth-div
+        {
+            background-image: url('images3/banner4.png');
+            background-size: 100% 100%;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            color: white;
+        }
+        .fourth-div h2
+        {
+            font-weight: bold;
+            margin-top: 100px;
+        }
+        .b6
+        {
+            margin-top: 70px;
+            margin-bottom: 100px;
+        }
+        .b6 a
+        {
+            color: white;
+            border: 2px solid white;
+            padding: 15px 50px;
+            font-size: 20px;
+            text-decoration: none;
+        }
+        .books img
+        {
+            margin-top: 110px;
+            margin-left: 150px;
+        }
+        .fifth-div
+        {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        .fifth-div h1
+        {
+            color: rgba(12, 12, 12, 0.692);
+            font-weight: bold;
+        }
+        .box1
+        {
+            text-align: center;
+            box-shadow: 3px 3px 3px 4px #ccc;
+            border: 1px solid lightgrey;
+            transition: transform .5s;
+        }
+        .box1:hover
+        {
+            transform: scale(1.1);
+        }
+        .box1 img
+        {
+            height: auto;
+            width: 100%;
+        }
+        .box2
+        {
+            text-align: center;
+            border: 1px solid lightgrey;
+        }
+        .box2 img
+        {
+            height: 250px;
+            width: 250px;
+        }
+        .box3
+        {
+            text-align: center;
+            border: 1px solid lightgrey;
+        }
+        .box3 img
+        {
+            height: 250px;
+            width: 200px;
+        }
+        .box4
+        {
+            text-align: center;
+            border: 1px solid lightgrey;
+        }
+        .box4 img
+        {
+            height: 250px;
+            width: 200px;
+        }
+        .sixth-div
+        {
+            background-image: url('images3/banner3.png');
+            background-size: 100% 100%;
+            text-align: center;
+            color: white;
+        }
+        .sixth-div h1
+        {
+            margin-top: 280px;
+            font-size: 70px;
+            font-weight: bold;
+        }
+        .b7
+        {
+            margin-top: 70px;
+            margin-bottom: 130px;
+        }
+        .b7 a
+        {
+            color: white;
+            border: 2px solid white;
+            padding: 15px 50px;
+            font-size: 20px;
+            text-decoration: none;
+        }
+        .footer-navbar
+        {
+            color: white;
+            background-color: rgb(255, 145, 0);
+        }
+        .logo img
+        {
+            height: 100px;
+            width: 100px;
+        }
+        .menu2
+        {
+            float: right;
+            padding-top: 10px;
+        }
+        .menu2 ul
+        {
+            list-style: none;
+            display: inline-flex;
+            color: white;
+        }
+        .menu2 ul a
+        {
+            text-decoration: none;
+            color: white;
+        }
+        .menu2 ul li
+        {
+            padding: 10px 20px;
+        }
+        .info-navbar
+        {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .info-navbar p
+        {
+            color: grey;
+        }
+        .info-right
+        {
+            float: right;
+        }
+        @media only screen and (min-width:320px) and (max-width:500px)
+        {
+            .first-div
+            {
+                background-image: url('images3/banner5.png');
+            }
+            .center
+            {
+                text-align: center;
+            }
+            .menu
+            {
+                display: none;
+            }
+            .first-div h5
+            {
+                margin-top: 50px;
+            }
+            .button1
+            {
+                margin-bottom: 250px;
+            }
+            .cap img
+            {
+                height: 380px;
+                width: 100%;
+                margin-left: unset;
+            }
+            .grid
+            {
+                display: grid;
+            }
+            .grid1
+            {
+                order: 1;
+            }
+            .grid2
+            {
+                order: 2;
+            }
+            .second-div h1
+            {
+                width: 50%;
+            }
+            .second-div-image1
+            {
+                margin-top: unset;
+            }
+            .second-div-image1 img
+            {
+                height: 200px;
+                width: 200px;
+                margin-left: -15px;
+            }
+            .second-div-image2
+            {
+                margin-top: unset;
+            }
+            .second-div-image2 img
+            {
+                height: 200px;
+                width: 200px;
+                margin-left: -10px;
+            }
+            .goggles img
+            {
+                margin-left: -30px;
+            }
+            .remote img
+            {
+                height: 200px;
+                width: 200px;
+                margin-left: -10px;
+            }
+            .gloves img
+            {
+                height: 200px;
+                width: 200px;
+                margin-top: 20px;
+            }
+            .center
+            {
+                text-align: center;
+            }
+            .center h6
+            {
+                margin-top: 10px;
+            }
+            .b3
+            {
+                margin-top: 40px;
+            }
+            .b5
+            {
+                margin-top: unset;
+            }
+            .fourth-div
+            {
+                background-image: url('images3/banner6.png');
+            }
+            .books img
+            {
+                margin-top: unset;
+                margin-left: unset;
+                width: 100%;
+                margin-bottom: 50px;
+            }
+            .fifth-div
+            {
+                text-align: center;
+            }
+            .line1
+            {
+                margin-left: 44%;
+            }
+            .box1
+            {
+                display: none;
+            }
+            .box2
+            {
+                display: none;
+            }
+            .box3
+            {
+                display: none;
+            }
+            .box4
+            {
+                box-shadow: 3px 3px 5px 0px lightgray;
+                border: 1px solid whitesmoke;
+            }
+            .sixth-div
+            {
+                background-image: url('images3/banner7.png');
+            }
+            .sixth-div h1
+            {
+                margin-top: 200px;
+            }
+            .menu2
+            {
+                float: unset;
+                margin-right: 40px;
+            }
+            .menu2 ul
+            {
+                display: inline-block;
+            }
+            .info-navbar
+            {
+                text-align: center;
+            }
+            .info-right
+            {
+                float: unset;
+            }
+
+
+
+
+
+
+        }
+        </style>
+    </head>
+    <body>
+        <div class="first-div">
+            <div class="container">
+                <div class="row center">
+                    <div class="col-12 col-md-4">
+                        <img src="images3/orangelogo.png" alt="">
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <div class="menu">
+                            <ul>
+                                <a href="Baselli Web Page.html"><li>Home</li></a>
+                                <a href="About Us Page.html"><li>About US</li></a>
+                                <a href="Product Web Page.html"><li>Products</li></a>
+                                <a href="Trust Web Page.html"><li>Trust</li></a>
+                                <a href="FAQ Web Page.html"><li>FAQ</li></a>
+                                <a href="Contact Us Page.html"><li>Contact US</li></a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-5">
+                        <h5>New Collection 2019</h5>
+                        <h1>Protection Helmets</h1>
+                        <p>Lorem ipsum dolor sit amet,consectetur 
+                            adipisicing elit, sed do eiusmod.
+                        </p>
+                        <div class="button1">
+                            <a href="">Discover Collection</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-7">
+                        <div class="cap">
+                            <img src="images3/cap.png" alt="">
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="second-div">
+            <div class="container"> 
+                <div class="row">
+                    <div class="col-6 col-md-6">
+                        <div class="row grid">
+                            <div class="col-md-6 grid2">
+                                <h5>Specialized</h5>
+                                <h1>Mining Helmets</h1>
+                                <a class="b1" href="#">More Helmets</a>
+                            </div>
+                            <div class="col-md-6 grid1">
+                                <div class="second-div-image1">
+                                    <img src="images3/helmet.png" alt="">
+                                </div>	
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="col-6 col-md-6">
+                        <div class="row grid">    
+                            <div class="col-md-6 grid2">
+                                <h5>Exclusive</h5>
+                                <h1>Safety Boots</h1>
+                                <a class="b2" href="#">More Vests</a>
+                            </div>
+                            <div class="col-md-6 grid1">
+                                <div class="second-div-image2">
+                                    <img src="images3/shoes.png" alt="">
+                                </div>	
+                            </div>
+                        </div>    
+                    </div>    
+                </div>               
+            </div>
+        </div>
+        <div class="third-div">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-md-4">
+                        <div class="row grid">
+                            <div class="col-md-6 grid2">
+                                <h6>Professionally Used</h6>
+                                <h2>Protection Goggles</h2>
+                                <div class="b3">
+                                    <a href="">More Protections</a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 grid1">
+                                <div class="goggles">
+                                    <img src="images3/goggles.png" alt="">
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="row grid">    
+                            <div class="col-md-6 grid2">
+                                <h6>Specialized</h6>
+                                <h2>Anti Disturbation Equipment</h2>
+                                <div class="b4">
+                                    <a href="">More Equipments</a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 grid1">
+                                <div class="remote">
+                                    <img src="images3/remote.png" alt="">
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="row center grid">    
+                            <div class="col-md-6 grid2">
+                                <h6>Professionally Used</h6>
+                                <h2>Accessories</h2>
+                                <div class="b5">
+                                    <a href="">More Accessories</a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 grid1">
+                                <div class="gloves">
+                                    <img src="images3/gloves.png" alt="">
+                                </div>
+                            </div>
+                        </div>    
+                    </div>    
+                </div>
+            </div>
+        </div>
+        <div class="fourth-div">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-5">
+                        <h2>Here At Baselli-We Care</h2>
+                        <div style="height: 4px;width: 50px;background-color: white;margin-bottom: 30px;margin-top: 20px;"></div>
+                        <p>Lorem Ipsum dolor sit amet,
+                            consectetur adipisicing 
+                            elit, sed magna eiusmod 
+                            tempor incididunt ut labore et
+                            dolore magna aliqua.
+                            Lorem Ipsum dolor sit amet,
+                            consectetur adipisicing 
+                            elit, sed magna eiusmod 
+                            tempor incididunt ut labore et
+                            dolore magna aliqua.
+                        </p>
+                        <p>Lorem Ipsum dolor sit amet,
+                            consectetur adipisicing 
+                            elit, sed magna eiusmod 
+                            tempor incididunt ut labore et
+                            dolore magna aliqua.
+                            Lorem Ipsum dolor sit amet,
+                            consectetur adipisicing 
+                            elit, sed magna eiusmod 
+                            tempor incididunt ut labore et
+                            dolore magna aliqua.
+                        </p>
+                        <p>Ut enim ad minim veniam, quis nostured exercitation</p>
+                        <div class="b6">
+                            <a href="">Download Catalog</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-7">
+                        <div class="books">
+                            <img src="images3/books.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fifth-div">
+            <div class="container">
+                <div class="row">
+                    <h1>Best Selling</h1>
+                    <div class="line1"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="box1">
+                            <img src="images/shadowshoes2.png">
+                            <p style="color: grey;">Safety Boots</p>
+                            <h3 style="color: rgba(0, 0, 0, 0.753);font-weight: bold;">Farming Boots</h3>
+                            <h4 style="color: orange;margin-bottom: 20px;">$160.00</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="box2">
+                            <img src="images/helmet2.png">
+                            <p style="color: grey;">Helmets</p>
+                            <h3 style="color: rgba(0, 0, 0, 0.753);font-weight: bold;">Z01 Mining Helmet</h3>
+                            <h4 style="color: orange;margin-bottom: 20px;">$160.00</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="box3">
+                            <img src="images/bulletproof.png">
+                            <p style="color: grey;">Bullet Proof Vests</p>
+                            <h3 style="color: rgba(0, 0, 0, 0.753);font-weight: bold;">A1 Bullet Proof</h3>
+                            <h4 style="color: orange;margin-bottom: 20px;">$160.00</h4>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="box4">
+                            <img src="images/goggles2.png">
+                            <p style="color: grey;">Goggles</p>
+                            <h3 style="color: rgba(0, 0, 0, 0.753);font-weight: bold;">Safety Goggles</h3>
+                            <h4 style="color: orange;margin-bottom: 20px;">$160.00</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sixth-div">
+            <div class="container">
+                <div class="row">
+                    <h1>Get a Custom Quote</h1>
+                    <p>Lorem ispum dolor sit amet, consectetur adipisicing elit, sed magna 
+                        eiusmod tempor incididunt ut labore et dolore.
+                    </p>
+                    <div class="b7">
+                        <a href="">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-navbar">
+            <div class="container">
+                <div class="row grid center">
+                    <div class="col-12 col-md-4 grid2">
+                        <div class="logo">
+                            <img src="images3/logo.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-8 grid1">
+                        <div class="menu2">
+                            <ul style="margin-top: 20px;">
+                                <a href="Baselli Web Page.html"><li>Home</li></a>
+                                <a href="About Us Page.html"><li>About US</li></a>
+                                <a href="Product Web Page.html"><li>Products</li></a>
+                                <a href="Trust Web Page.html"><li>Trust</li></a>
+                                <a href="FAQ Web Page.html"><li>FAQ</li></a>
+                                <a href="Contact Us Page.html"><li>Contact US</li></a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="info-navbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <p>@2019 All Rights Reserved</p>
+                    </div>
+                    <div class="col-12 col-md-6 info-right">
+                        <p>Terms & Conditions | Privacy Policy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

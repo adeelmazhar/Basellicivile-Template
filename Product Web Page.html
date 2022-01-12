@@ -1,0 +1,536 @@
+<html>
+    <head>
+        <title>
+            Product Web Page
+        </title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <style>
+        .first-div
+        {
+            margin-bottom: 40px;
+        }
+        .first-div h1
+        {
+            color: rgba(12, 12, 12, 0.692);
+            font-weight: bold;
+        }
+        .first-div h4
+        {
+            color: orange;
+        }
+        .first-div h5
+        {
+            color: orange;
+            margin-top: 30px;
+            border-bottom: 1px solid lightgrey;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .first-div h6
+        {
+            color: rgba(12, 12, 12, 0.692);
+            font-weight: bold;
+        }
+        .first-div p
+        {
+            color: grey;
+        }
+        .logo img
+        {
+            height: 100px;
+            width: 100px;
+        }    
+        .menu
+        {
+            float: right;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        .menu ul
+        {
+            list-style: none;
+            display: inline-flex;
+        }
+        .menu ul li
+        {
+            padding: 10px 20px;
+        }
+        .p1
+        {
+            background-color: rgb(228, 226, 226);
+            padding: 20px 0px;
+            border-bottom: 5px solid white;
+        }
+        .p2
+        {
+            background-color: rgb(228, 226, 226);
+            padding: 20px 0px;
+            border-bottom: 5px solid white;
+        }
+        .p3
+        {
+            background-color: rgb(228, 226, 226);
+            padding: 20px 0px;
+            border-bottom: 5px solid white;
+        }
+        .p4
+        {
+            background-color: rgb(228, 226, 226);
+            padding: 20px 0px;
+            border-bottom: 5px solid white;
+        }
+        .big-helmet
+        {
+            background-color: rgb(228, 226, 226);
+        }
+        .big-helmet img
+        {
+            height: 400px;
+            width: 380px;
+            margin-top: 72px;
+            padding-bottom: 70px;
+            margin-left: 30px;
+        }
+        .first-content
+        {
+            margin-left: 100px;
+        }
+        .first-content a
+        {
+            background-color: orange;
+            color: white;
+            text-decoration: none;
+            padding: 8px 30px;
+        }
+        .quote
+        {
+            display: inline-flex;
+        }
+        .quote a
+        {
+            background-color: orange;
+            color: white;
+            margin-top: 18px;
+            margin-bottom: 20px;
+            margin-left: 68px;
+            text-decoration: none;
+            padding: 8px 20px;
+        }
+        .second-div
+        {
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+        .second-div h5
+        {
+            color: orange;
+            margin-top: 30px;
+            border-bottom: 1px solid lightgrey;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .second-div h4
+        {
+            color: orange;
+            margin-top: 60px;
+        }
+        .second-div p
+        {
+            color: grey;
+            width: 90%;
+        }
+        .bg-helmet
+        {
+            float: right;
+        }
+        .bg-helmet img
+        {
+            height: 300px;
+            width: 300px;
+        }
+        .bullets-content
+        {
+            color: grey;
+        }
+        .third-div
+        {
+            background-image: url('images6/banner1.png');
+            background-size: 100% 100%;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            color: white;
+        }
+        .third-div h1
+        {
+            margin-top: 60px;
+        }
+        .third-div h4
+        {
+            font-weight: lighter;
+        }
+        .goggles
+        {
+            float: right;
+            padding-right: 80px;
+        }
+        .fourth-div
+        {
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+        .fourth-div h1
+        {
+            font-weight: bold;
+            color: rgba(12, 12, 12, 0.692);
+        }
+        .box1
+        {
+            text-align: center;
+            box-shadow: 3px 3px 3px 4px #ccc;
+            border: 1px solid lightgrey;
+            transition: transform .5s;
+        }
+        .box1:hover
+        {
+            transform: scale(1.1);
+        }
+        .box1 img
+        {
+            height: auto;
+            width: 100%;
+        }
+        .box2
+        {
+            text-align: center;
+            border: 1px solid lightgrey;
+        }
+        .box2 img
+        {
+            height: 250px;
+            width: 250px;
+        }
+        .box4
+        {
+            text-align: center;
+            border: 1px solid lightgrey;
+        }
+        .box4 img
+        {
+            height: 250px;
+            width: 250px;
+        }
+        .box5
+        {
+            text-align: center;
+            border: 1px solid lightgrey;
+        }
+        .box5 img
+        {
+            height: 250px;
+            width: 200px;
+        }
+        .fifth-div
+        {
+            background-image: url('images6/banner2.png');
+            background-size: 100% 100%;
+            text-align: center;
+            color: white;
+        }
+        .fifth-div h1
+        {
+            margin-top: 280px;
+            font-size: 70px;
+            font-weight: bold;
+        }
+        .fifth-div p
+        {
+            width: 50%;
+            margin-left: 280px;
+        }
+        .b1
+        {
+            margin-top: 70px;
+            margin-bottom: 100px;
+        }
+        .b1 a
+        {
+            color: white;
+            border: 2px solid white;
+            padding: 15px 50px;
+            font-size: 20px;
+            text-decoration: none;
+        }
+        .footer-navbar
+        {
+            color: white;
+            background-color: rgb(255, 145, 0);
+        }
+        .menu2
+        {
+            float: right;
+            margin-top: 30px;
+        }
+        .menu2 ul
+        {
+            list-style: none;
+            display: inline-flex;
+        }
+        .menu2 ul li
+        {
+            padding: 10px 20px;
+        }
+        .logo2 img
+        {
+            height: 100px;
+            width: 100px;
+        }
+        .info-navbar
+        {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .info-navbar p
+        {
+            color: grey;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="first-div">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="logo">
+                            <img src="images6/orangelogo.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="menu">
+                            <ul>
+                                <a href="Baselli Web Page.html"><li>Home</li></a>
+                                <a href="About Us Page.html"><li>About US</li></a>
+                                <a href="Product Web Page.html"><li>Products</li></a>
+                                <a href="Trust Web Page.html"><li>Trust</li></a>
+                                <a href="FAQ Web Page.html"><li>FAQ</li></a>
+                                <a href="Contact Us Page.html"><li>Contact US</li></a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <h5>Bullet Proof Vests <span style="color: lightgrey;">/Product Name</span></h5>
+                    <div class="col-md-1">
+                        <div class="p1">
+                            <img src="images6/product.png" alt="">
+                        </div>
+                        <div class="p2">
+                            <img src="images6/product.png" alt="">
+                        </div>
+                        <div class="p3">
+                            <img src="images6/product.png" alt="">
+                        </div>
+                        <div class="p4">
+                            <img src="images6/product.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="big-helmet">
+                            <img src="images6/helmet.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="first-content">
+                            <h1>T20 Protection Helmets</h1>
+                            <h4>$160.00</h4>
+                            <p>Lorem Ipsum dolor sit amet,
+                                consectetur adipisicing 
+                                elit, sed magna eiusmod 
+                                tempor incididunt ut labore et
+                                dolore magna aliqua.
+                                Ut enim ad minim veniam quis
+                                nostured exercitation ullamco 
+                                laboris nisi ut aliquip ex
+                                ea commodo consequent.
+                            </p>
+                            <h6>Color</h6>
+                            <select style="padding: 5px 315px 5px 50px;margin-bottom: 20px;" name="Select Color" id="">
+                                <option value="Yellow">Yellow</option>
+                                <option value="Orange">Orange</option>
+                                <option value="Red">Red</option>
+                            </select>
+                            <h6>Size</h6>
+                            <select style="padding: 5px 310px 5px 50px;margin-bottom: 10px;" name="Select Size" id="">
+                                <option value="Small">Small</option>
+                                <option value="Medium">Medium</option>
+                                <option value="Large">Large</option>
+                            </select>
+                            <h6>Availabillity: <span style="color: orange;">In Stock</span></h6>
+                            <select style="padding: 5px 100px;" name="Quantity" id="">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                            <a href="">Buy Now</a>
+                            <div class="quote">
+                                <h6 style="width: 40%;margin-top: 15px;">Request for a wholesale Quote</h6>
+                                <a href="">Get a Quote</a>
+                            </div>    
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="second-div">
+            <div class="container">
+                <div style="border-bottom: 1px solid lightgrey;" class="row">
+                    <h5>Description <span style="color: lightgrey;">/Additional Information/Reviews(0)</span></h5>
+                    <div class="col-md-6">
+                        <h4>Details</h4>
+                        <p>Lorem Ipsum dolor sit amet,
+                            consectetur adipisicing 
+                            elit, sed magna eiusmod 
+                            tempor incididunt ut labore et
+                            dolore magna aliqua.
+                            Ut enim ad minim veniam quis
+                            nostured exercitation ullamco 
+                            laboris nisi ut aliquip ex
+                            ea commodo consequent.
+                        </p>
+                    </div>             
+                    <div class="col-md-6">
+                        <div class="bg-helmet">
+                            <img src="images6/bghelmet.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4>Features</h4>
+                        <ul class="bullets-content">
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Consectetur adipisicing elit.</li>
+                            <li>Do eiusmod tempor incididunt ul labore et dolore magna aliqua.</li>
+                            <li>Ut enim  ad minim veniam.</li>
+                            <li>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="bg-helmet">
+                            <img src="images6/bghelmet.png" alt="">
+                        </div>                 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="third-div">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1><span style="font-weight: bold;">50% OFF</span> Safety Goggles</h1>
+                        <h4>Free Shipping over $125 for International orders</h4>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="goggles">
+                            <img src="images7/goggles.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fourth-div">
+            <div class="container">
+                <div class="row">
+                    <h1>Best Selling</h1>
+                    <div style="height: 4px;width: 50px;background-color: orange;margin-bottom: 30px;margin-left: 15px;margin-top: 10px;"></div>
+                </div>
+                <div class="row">    
+                    <div class="col-md-3">
+                        <div class="box1">
+                            <img src="images7/shadowshoes2.png">
+                            <p style="color: grey;">Safety Boots</p>
+                            <h3 style="color: rgba(0, 0, 0, 0.753);font-weight: bold;">Farming Boots</h3>
+                            <h4 style="color: orange;margin-bottom: 20px;">$160.00</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="box2">
+                            <img src="images7/helmet2.png">
+                            <p style="color: grey;">Helmets</p>
+                            <h3 style="color: rgba(0, 0, 0, 0.753);font-weight: bold;">Z01 Mining Helmet</h3>
+                            <h4 style="color: orange;margin-bottom: 20px;">$160.00</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="box5">
+                            <img src="images7/bulletproof.png">
+                            <p style="color: grey;">Bullet Proof Vests</p>
+                            <h3 style="color: rgba(0, 0, 0, 0.753);font-weight: bold;">A1 Bullet Proof</h3>
+                            <h4 style="color: orange;margin-bottom: 20px;">$160.00</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="box4">
+                            <img src="images7/goggles2.png">
+                            <p style="color: grey;">Goggles</p>
+                            <h3 style="color: rgba(0, 0, 0, 0.753);font-weight: bold;">Safety Goggles</h3>
+                            <h4 style="color: orange;margin-bottom: 20px;">$160.00</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fifth-div">
+            <div class="container">
+                <div class="row">
+                    <h1>Get a Custom Quote</h1>
+                    <p>Lorem ispum dolor sit amet, consectetur adipisicing elit, sed magna 
+                        eiusmod tempor incididunt ut labore et dolore.
+                    </p>
+                    <div class="b1">
+                        <a href="">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-navbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="logo2">
+                            <img src="images7/logo.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="menu2">
+                            <ul>
+                                <a href="Baselli Web Page.html"><li>Home</li></a>
+                                <a href="About Us Page.html"><li>About US</li></a>
+                                <a href="Product Web Page.html"><li>Products</li></a>
+                                <a href="Trust Web Page.html"><li>Trust</li></a>
+                                <a href="FAQ Web Page.html"><li>FAQ</li></a>
+                                <a href="Contact Us Page.html"><li>Contact US</li></a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="info-navbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>@2019 All Rights Reserved</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p style="float: right;">Terms & Conditions | Privacy Policy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

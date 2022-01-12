@@ -1,0 +1,885 @@
+<html>
+<head>
+	<title>Index Web</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<style>
+	.first-div
+	{
+		background-image: url('images/banner3.png');
+		background-size: 100% 100%;
+		margin-bottom: 40px;
+	}
+	.logo img
+	{
+		height: 100px;
+		margin-top: 10px;
+	}
+	.menu
+	{
+		float: right;
+		display: inline-flex;
+		list-style: none;
+		color: white;
+		margin-top: 20px;
+	}
+	.menu li
+	{
+		padding: 10px 20px;
+		cursor: pointer;
+	}
+	.menu a
+	{
+		text-decoration: none;
+		color: white;
+	}
+	.first-left
+	{
+		color: white;
+	}
+	.first-left h3
+	{
+		padding-top: 45px;
+	}
+	.first-left h1
+	{
+		font-size: 80px;
+		font-weight: bold;    
+	}
+	.first-left p
+	{
+		padding-right: 135px;
+		padding-top: 30px;
+		padding-bottom: 165px;
+	}
+	.first-right img
+	{
+		height: auto;
+		width: 100%;
+		margin-top: 25px;
+	}
+	.second-div
+	{
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+	.second-div h1
+	{
+		font-weight: bold;
+		color: rgba(0, 0, 0, 0.753);
+	}
+	.second-div h5
+	{
+		color: orange;
+	}
+	.second-div p
+	{
+		color: grey;
+		padding-bottom: 60px;
+	}
+	.second-div a
+	{
+		text-decoration: none;
+	}
+	.b1
+	{
+		background-color: orange;
+		color: white;
+		padding: 10px 30px;
+		text-decoration: none;
+	}
+	.b2
+	{
+		background-color: orange;
+		color: white;
+		padding: 10px 40px;
+		text-decoration: none;
+	}
+	.second-div-image1
+	{
+		margin-top: -50px;
+	}
+	.second-div-image1 img
+	{
+		height: 300px;
+		width: 300px;
+		padding-right: 20px;
+	}
+	.second-div-image2
+	{
+		margin-top: -50px;
+	}
+	.second-div-image2 img
+	{
+		height: 300px;
+		width: 300px;
+		padding-right: 20px;
+	}
+	.third-div
+	{
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+	.third-div h1
+	{
+		font-weight: bold;
+		color: rgba(0, 0, 0, 0.753);
+	}
+	.box1
+	{
+		text-align: center;
+		box-shadow: 3px 3px 3px 4px #ccc;
+		border: 1px solid lightgrey;
+		transition: transform .5s;
+	}
+	.box1:hover
+	{
+		transform: scale(1.1);
+	}
+	.box1 img
+	{
+		height: auto;
+		width: 100%;
+	}
+	.box2
+	{
+		text-align: center;
+		border: 1px solid lightgrey;
+	}
+	.box2 img
+	{
+		height: 250px;
+		width: 250px;
+	}
+	.box3
+	{
+		text-align: center;
+		border: 1px solid lightgrey;
+	}
+	.box3 img
+	{
+		height: 250px;
+		width: 200px;
+	}
+	.box4
+	{
+		text-align: center;
+		border: 1px solid lightgrey;
+	}
+	.box4 img
+	{
+		height: 250px;
+		width: 200px;
+	}
+	.box5
+	{
+		text-align: center;
+		border: 1px solid lightgrey;
+	}
+	.box5 img
+	{
+		height: 250px;
+		width: 250px;
+	}
+	.inner-div
+	{
+		margin-top: 30px;
+	}
+	.fourth-div
+	{
+		background-image: url('images/banner4.png');
+		background-size: 100% 100%;
+		color: white;
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+	.fourth-div h1
+	{
+		font-size: 40px;
+		margin-top: 80px;
+	}
+	.fourth-div h2
+	{
+		font-size: 60px;
+	}
+	.fourth-div h3
+	{
+		font-size: 32px;
+		margin-bottom: 40px;
+	}
+	.fourth-div a
+	{
+		text-decoration: none;
+	}
+	.b3
+	{
+		border: 2px solid white;
+		color: white;
+		font-size: 25px;
+		padding: 10px 40px;
+	}
+	.fourth-div-image img
+	{
+		margin-top: 65px;
+		margin-left: 50px;
+		margin-bottom: 60px;
+		height: 400px;
+		width: 400px;
+	}
+	.fifth-div
+	{
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+	.fifth-div h1
+	{
+		font-weight: bold;
+		color: rgba(0, 0, 0, 0.753);
+	}
+	.card1
+	{
+		text-align: center;
+		box-shadow: 0px 0px 5px 3px #ccc;
+		background-color: white;
+		border: 1px solid white;
+	}
+	.card1 img
+	{
+		height: 250px;
+		width: 250px;
+	}
+	.card2
+	{
+		text-align: center;
+		box-shadow: 0px 0px 5px 3px #ccc;
+		background-color: white;
+		border: 1px solid white;
+	}
+	.card2 img
+	{
+		height: 250px;
+		width: 250px;
+	}
+	.card3
+	{
+		text-align: center;
+		box-shadow: 0px 0px 5px 3px #ccc;
+		background-color: white;
+		border: 1px solid white;
+	}
+	.card3 img
+	{
+		height: 250px;
+		width: 250px;
+	}
+	.card4
+	{
+		text-align: center;
+		box-shadow: 0px 0px 5px 3px #ccc;
+		background-color: white;
+		border: 1px solid white;
+	}
+	.card4 img
+	{
+		height: 250px;
+		width: 250px;
+	}
+	.sixth-div
+	{
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+	.sixth-div h1
+	{
+		font-weight: bold;
+		color: rgba(0, 0, 0, 0.753);
+	}
+	.client-logos img
+	{
+		width: 200px;
+		height: 100px;
+	}
+	.seventh-div
+	{
+		margin-top: 40px;
+	}
+	.icon-image
+	{
+		margin-bottom: 100px;
+	}
+	.icon-image img
+	{
+		height: auto;
+		width: 90px;
+	}
+	.author img
+	{
+		height: 500px;
+		width: 400px;
+		margin-left: 130px;
+	}
+	.eightth-div
+	{
+		color: white;
+		background-color: orange;
+	}
+	.logo2 img
+	{
+		height: 100px;
+	}
+	.menu2
+	{
+		display: inline-flex;
+		list-style: none;
+		color: white;
+		margin-top: 30px;
+	}
+	.float
+	{
+		float: right;
+		padding-left: 100px;
+	}
+	.menu2 li
+	{
+		padding: 10px 20px;
+		cursor: pointer;
+	}
+	.menu2 a
+	{
+		text-decoration: none;
+		color: white;
+	}
+	.nineth-div
+	{
+		margin-top: 15px;
+	}
+	.nineth-div p
+	{
+		color: grey;
+	}
+	.info-right
+	{
+		float: right;
+	}
+	@media only screen and (min-width:320px) and (max-width:500px)
+	{
+		.first-div
+		{
+			background-image: url('images/banner5.png');
+		}
+		.logo img
+		{
+			margin-top: unset;
+		}
+		.center
+		{
+			text-align: center;
+		}
+		.menu
+		{
+			display: none;
+		}
+		.first-left h1
+		{
+			font-size: 75px;    
+		}
+		.first-left p
+		{
+			padding-right: unset;
+			padding-top: 30px;
+			padding-bottom: unset;
+		}
+		.first-right img
+		{
+			height: auto;
+			width: 100%;
+			margin-top: 50px;
+		}
+		.grid
+		{
+			display: grid;
+		}
+		.grid1
+		{
+			order: 1;
+		}
+		.grid2
+		{
+			order: 2;
+		}
+		.second-div h1
+		{
+			width: 50%;
+		}
+		.second-div-image1
+		{
+			margin-top: unset;
+		}
+		.second-div-image1 img
+		{
+			height: 230px;
+			width: 230px;
+			margin-left: -10px;
+			padding-right: unset;
+		}
+		.second-div-image2
+		{
+			margin-top: unset;
+		}
+		.second-div-image2 img
+		{
+			height: 230px;
+			width: 230px;
+			padding-right: unset;
+		}
+		.adjust
+		{
+			padding-left: 30px;
+		}
+		.box1
+		{
+			margin-bottom: 20px;
+		}
+		.box2
+		{
+			margin-bottom: 20px;
+		}
+		.box3
+		{
+			margin-bottom: 20px;
+		}
+		.box4
+		{
+			margin-bottom: 20px;
+		}
+		.box5
+		{
+			margin-bottom: 20px;
+		}
+		.inner-div
+		{
+			margin-top: unset;
+		}
+		.fourth-div
+		{
+			background-image: url('images/banner6.png');
+		}
+		.b3
+		{
+			font-size: 30px;
+			padding: 10px 133px;
+		}
+		.fourth-div-image img
+		{
+			margin-top: 65px;
+			margin-left: unset;
+			margin-bottom: 60px;
+			width: 100%;
+		}
+		.fourth-div h3
+		{
+			font-size: 27px;
+		}
+		.card1
+		{
+			margin-bottom: 20px;
+		}
+		.card1 img
+		{
+			height: auto;
+			width: 100%;
+		}
+		.card2
+		{
+			margin-bottom: 20px;
+		}
+		.card2 img
+		{
+			height: auto;
+			width: 100%;
+		}
+		.card3
+		{
+			margin-bottom: 20px;
+		}
+		.card3 img
+		{
+			height: auto;
+			width: 100%;
+		}
+		.card4
+		{
+			margin-bottom: 20px;
+		}
+		.card4 img
+		{
+			height: auto;
+			width: 100%;
+		}
+		.client-logos img
+		{
+			width: 100%;
+			height: 100px;
+		}
+		.author
+		{
+			display: none;
+		}
+		.eightth-div
+		{
+			color: white;
+			background-color: orange;
+		}
+		.logo2 img
+		{
+			height: 100px;
+		}
+		.menu2
+		{
+			display: inline-block;
+		}
+		.float
+		{
+			float: unset;
+			padding-left: unset;
+		}
+		.nineth-div
+		{
+			margin-top: unset;
+			text-align: center;
+		}
+		.info-right
+		{
+			float: unset;
+		}
+
+
+
+
+	}
+	</style>
+</head>
+<body>
+	<div class="first-div">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-4">
+					<div class="logo center">
+						<img src="images/logo.png">
+					</div>
+				</div>
+				<div class="col-12 col-md-8">
+					<ul class="menu">
+						<a href="Baselli Web Page.html"><li>Home</li></a>
+						<a href="About Us Page.html"><li>About US</li></a>
+						<a href="Product Web Page.html"><li>Products</li></a>
+						<a href="Trust Web Page.html"><li>Trust</li></a>
+						<a href="FAQ Web Page.html"><li>FAQ</li></a>
+						<a href="Contact Us Page.html"><li>Contact US</li></a>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-md-6">
+					<div class="first-left">
+						<h3>On-Demand</h3>
+						<h1>Protection Equipments</h1>
+						<p>lorem ipsum doler sit emit.lorem ipsum doler sit emit.lorem ipsum doler sit emit.lorem ipsum doler sit emitlorem ipsum doler sit emit.</p>
+					</div>
+				</div>
+				<div class="col-12 col-md-6">
+					<div class="first-right">
+						<img src="images/cap.png">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="second-div">
+		<div class="container"> 
+			<div class="row">
+				<h1>Products We Offer</h1>
+                <p>Lorem ipsum dolor sit amet,consectetur adipisicing</p>
+				<div class="col-6 col-md-6">
+					<div class="row grid">
+						<div class="col-md-6 grid2">
+							<h5>Specialized</h5>
+							<h1>Mining Helmets</h1>
+							<a class="b1" href="#">More Helmets</a>
+						</div>
+						<div class="col-md-6 grid1">
+							<div class="second-div-image1">
+								<img src="images3/helmet.png" alt="">
+							</div>	
+						</div>
+					</div>    
+				</div>
+				<div class="col-6 col-md-6">
+					<div class="row grid">    
+						<div class="col-md-6 grid2 adjust">
+							<h5>Exclusive</h5>
+							<h1>Safety Boots</h1>
+							<a class="b2" href="#">More Vests</a>
+						</div>
+						<div class="col-md-6 grid1">
+							<div class="second-div-image2">
+								<img src="images3/shoes.png" alt="">
+							</div>	
+						</div>
+					</div>    
+				</div>    
+			</div>               
+		</div>
+	</div>
+	<div class="third-div">
+		<div class="container">
+			<div class="row">
+				<h1>Top Products</h1>
+				<div style="height: 4px;width: 50px;background-color: orange;margin-bottom: 30px;margin-left: 15px;margin-top: 10px;"></div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-md-3">
+					<div class="box1">
+						<img src="images/shadowshoes2.png">
+						<p style="color: grey;">Safety Boots</p>
+						<h3 style="color: rgba(0, 0, 0, 0.753);font-weight: bold;">Farming Boots</h3>
+						<h4 style="color: orange;margin-bottom: 20px;">$160.00</h4>
+					</div>
+				</div>
+				<div class="col-12 col-md-3">
+					<div class="box2">
+						<img src="images/helmet2.png">
+						<p style="color: grey;">Helmets</p>
+						<h3 style="color: rgba(0, 0, 0, 0.753);font-weight: bold;">Z01 Mining Helmet</h3>
+						<h4 style="color: orange;margin-bottom: 20px;">$160.00</h4>
+					</div>
+				</div>
+				<div class="col-12 col-md-3">
+					<div class="box3">
+						<img src="images/bulletproof.png">
+						<p style="color: grey;">Bullet Proof Vests</p>
+						<h3 style="color: rgba(0, 0, 0, 0.753);font-weight: bold;">A1 Bullet Proof</h3>
+						<h4 style="color: orange;margin-bottom: 20px;">$160.00</h4>
+					</div>
+				</div>
+				<div class="col-12 col-md-3">
+					<div class="box4">
+						<img src="images/goggles2.png">
+						<p style="color: grey;">Goggles</p>
+						<h3 style="color: rgba(0, 0, 0, 0.753);font-weight: bold;">Safety Goggles</h3>
+						<h4 style="color: orange;margin-bottom: 20px;">$160.00</h4>
+					</div>
+				</div>
+			</div>
+			<div class="inner-div">
+				<div class="row">
+					<div class="col-12 col-md-3">
+						<div class="box5">
+							<img src="images/shoes3.png">
+							<p style="color: grey;">Safety Boots</p>
+							<h3 style="color: rgba(0, 0, 0, 0.753);font-weight: bold;">Farming Boots</h3>
+							<h4 style="color: orange;margin-bottom: 20px;">$160.00</h4>
+						</div>
+					</div>
+					<div class="col-12 col-md-3">
+						<div class="box2">
+							<img src="images/helmet2.png">
+							<p style="color: grey;">Helmets</p>
+							<h3 style="color: rgba(0, 0, 0, 0.753);font-weight: bold;">Z01 Mining Helmet</h3>
+							<h4 style="color: orange;margin-bottom: 20px;">$160.00</h4>
+						</div>
+					</div>
+					<div class="col-12 col-md-3">
+						<div class="box3">
+							<img src="images/bulletproof.png">
+							<p style="color: grey;">Bullet Proof Vests</p>
+							<h3 style="color: rgba(0, 0, 0, 0.753);font-weight: bold;">A1 Bullet Proof</h3>
+							<h4 style="color: orange;margin-bottom: 20px;">$160.00</h4>
+						</div>
+					</div>
+					<div class="col-12 col-md-3">
+						<div class="box4">
+							<img src="images/goggles2.png">
+							<p style="color: grey;">Goggles</p>
+							<h3 style="color: rgba(0, 0, 0, 0.753);font-weight: bold;">Safety Goggles</h3>
+							<h4 style="color: orange;margin-bottom: 20px;">$160.00</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="fourth-div">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-6">
+					<h1>T-Series Taser Gun 30% OFF</h1>
+                    <div style="height: 4px;width: 50px;background-color: white;margin-bottom: 30px;"></div>
+                    <p>Lorem Ipsum dolor sit amet,consectetur adipisicing elit, sed magna 
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h2>02 : 14 : 01 : 29</h2>
+                    <h3>Days : Hours : Minutes : Seconds</h3>    
+                    <a class="b3" href="#">Shop Now</a>
+				</div>
+				<div class="col-12 col-md-6">
+					<div class="fourth-div-image">
+						<img src="images/tasergun.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="fifth-div">
+		<div class="container">
+			<div class="row">
+				<h1>How We Work</h1>
+				<div style="height: 4px;width: 50px;background-color: orange;margin-bottom: 30px;margin-left: 15px;margin-top: 10px;"></div>
+			</div>
+			<div class="row">
+				<div class="col-6 col-md-3">
+					<div class="card1">
+						<img src="images/card1.png">
+						<h4 style="color: rgba(0, 0, 0, 0.753);font-weight: bold;">Quality items</h4>
+						<p style="color: grey;">Lorem ipsum dolor sit  amet,consectetur
+						adipisicing elit,sed do eiusmod tempor
+						incididunt</p>
+					</div>
+				</div>
+				<div class="col-6 col-md-3">
+					<div class="card2">
+						<img src="images/card2.png">
+						<h4 style="color: rgba(0, 0, 0, 0.753);font-weight: bold;">Items in stock</h4>
+						<p style="color: grey;">Lorem ipsum dolor sit  amet,consectetur
+							adipisicing elit,sed do eiusmod tempor
+							incididunt</p>
+					</div>
+				</div>
+				<div class="col-6 col-md-3">
+					<div class="card3">
+						<img src="images/card3.png">
+						<h4 style="color: rgba(0, 0, 0, 0.753);font-weight: bold;">Fast shipping</h4>
+						<p style="color: grey;">Lorem ipsum dolor sit  amet,consectetur
+							adipisicing elit,sed do eiusmod tempor
+							incididunt</p>
+					</div>
+				</div>
+				<div class="col-6 col-md-3">
+					<div class="card4">
+						<img src="images/card4.png">
+						<h4 style="color: rgba(0, 0, 0, 0.753);font-weight: bold;">Same day Handeling</h4>
+						<p style="color: grey;">Lorem ipsum dolor sit  amet,consectetur
+							adipisicing elit,sed do eiusmod tempor
+							incididunt</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="sixth-div">
+		<div class="container">
+			<div class="row">
+				<h1>Featured Clients</h1>
+				<div style="height: 4px;width: 50px;background-color: orange;margin-bottom: 30px;margin-left: 15px;margin-top: 10px;"></div>
+			</div>
+			<div class="client-logos">
+				<div class="row">
+					<div class="col-6 col-md-3">
+						<img src="images/logo1.png" alt="">
+					</div>
+					<div class="col-6 col-md-3">
+						<img src="images/logo2.png" alt="">
+					</div>
+					<div class="col-6 col-md-3">
+						<img src="images/logo3.png" alt="">
+					</div>
+					<div class="col-6 col-md-3">
+						<img src="images/logo4.png" alt="">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-6 col-md-3">
+						<img src="images/logo5.png" alt="">
+					</div>
+					<div class="col-6 col-md-3">
+						<img src="images/logo6.png" alt="">
+					</div>
+					<div class="col-6 col-md-3">
+						<img src="images/logo7.png" alt="">
+					</div>
+					<div class="col-6 col-md-3">
+						<img src="images/logo8.png" alt="">
+					</div>
+				</div>
+			</div>	
+		</div>
+	</div>
+	<div class="seventh-div">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-6">
+					<div class="icon-image">
+						<img src="images/se.png" alt="">
+					</div>
+					<h3 style="color: rgba(0, 0, 0, 0.753);">Lorem Ipsum dolor sit amet,
+                        consectetur adipisicing 
+                        elit, sed magna eiusmod 
+                        tempor incididunt ut labore et
+                        dolore magna aliqua.
+                        Ut enim ad minim veniam quis
+                        nostured exercitation ullamco 
+                        laboris nisi ut aliquip ex
+                        ea commodo consequent.</h3>
+                        <h2 style="color: orange;display: inline-flex;margin-top: 25px;">- John Doe 
+                            <span>
+                                <p style="color: lightgrey;font-size: 14px;margin-left: 20px;margin-top: 16px;">Senior Inspector</p>
+                            </span>
+                        </h2>
+				</div>
+				<div class="col-12 col-md-6">
+					<div class="author">
+						<img src="images/author.png" alt="">
+					</div>
+				</div>		 
+			</div>		
+		</div>
+	</div>
+	<div class="eightth-div">
+		<div class="container">
+			<div class="row center">
+				<div class="col-12 col-md-4">
+					<div class="logo2">
+						<img src="images/logo.png">
+					</div>
+				</div>
+				<div class="col-12 col-md-8 float">
+					<ul class="menu2">
+						<a href="Baselli Web Page.html"><li>Home</li></a>
+						<a href="About Us Page.html"><li>About US</li></a>
+						<a href="Product Web Page.html"><li>Products</li></a>
+						<a href="Trust Web Page.html"><li>Trust</li></a>
+						<a href="FAQ Web Page.html"><li>FAQ</li></a>
+						<a href="Contact Us Page.html"><li>Contact US</li></a>
+					</ul>
+				</div>
+			</div>
+		</div>	
+	</div>
+	<div class="nineth-div">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<p>@2019 AllRights Reserved</p>
+				</div>
+				<div class="col-md-6">
+					<div class="info-right">
+						<p>Terms & Conditions | Privacy Policy</p>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

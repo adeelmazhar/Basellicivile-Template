@@ -1,0 +1,702 @@
+<html>
+    <head>
+        <title>
+            About Us
+        </title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <style>
+            .first-div
+            {
+                background-image: url('images2/banner1.png');
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+            }
+            .logo img
+            {
+                height: 100px;
+                width: 100px;
+            }
+            .menu
+            {
+                float: right;
+                color: white;
+            }
+            .menu ul
+            {
+                list-style: none;
+                display: inline-flex;
+                padding-top: 20px;
+            }
+            .menu ul a
+            {
+                text-decoration: none;
+                color: white;
+            }
+            .menu ul li
+            {
+                padding: 10px 20px;
+            }
+            .heading
+            {
+                text-align: center;
+            }
+            .heading h1
+            {
+                color: white;
+                font-size: 70px;
+                font-weight: bold;
+                margin-top: 60px;
+                margin-bottom: 250px;
+            }
+            .second-div
+            {
+                text-align: center;
+                margin-bottom: 40px;
+            }
+            .line1
+            {
+                height: 4px;
+                width: 50px;
+                background-color: orange;
+                margin-bottom: 30px;
+                margin-left: 48%;
+                margin-top: 20px;
+            }
+            .line2
+            {
+                height: 4px;
+                width: 50px;
+                background-color: white;
+                margin-bottom: 30px;
+                margin-left: 48%;
+                margin-top: 20px;
+            }
+            .second-div h5
+            {
+                color: orange;
+            }
+            .second-div h1
+            {
+                color: rgba(12, 12, 12, 0.692);
+                font-weight: bold;
+            }
+            .second-div p
+            {
+                color: grey;
+                font-weight: lighter;
+            }
+            .box1
+            {
+                text-align: left;
+                margin-top: 25px;
+                padding: 20px 40px 20px 40px;
+                border: 1px solid whitesmoke;
+                border-radius: 3px;
+                box-shadow: 3px 3px 5px 0px lightgray;
+                position: relative;
+                z-index: 2;
+                background-color: white;
+            }
+            .box1 h4
+            {
+                color: grey;
+            }
+            .card1
+            {
+                margin-left: -95px;
+                position: relative;
+                z-index: 1;
+            }
+            .card1 img
+            {
+                height: 450px;
+                width: 550px;
+            }
+            .third-div
+            {
+                margin-top: 40px;
+                margin-bottom: 40px;
+            }
+            .third-div h5
+            {
+                color: orange;
+            }
+            .third-div h1
+            {
+                color: rgba(12, 12, 12, 0.692);
+                font-weight: bold;
+            }
+            .third-div p
+            {
+                color: grey;
+                font-weight: lighter;
+            }
+            .box2
+            {
+                text-align: left;
+                margin-top: 40px;
+                padding: 20px 40px 20px 40px;
+                border: 1px solid whitesmoke;
+                border-radius: 3px;
+                box-shadow: 3px 3px 5px 0px lightgray;
+                background-color: white;
+                margin-left: -45px;
+                position: relative;
+                z-index: 2;
+            }
+            .box2 h4
+            {
+                color: grey;
+            }
+            .card2
+            {
+                position: relative;
+                z-index: 1;
+            }
+            .card2 img
+            {
+                height: 450px;
+                width: 550px;
+            }
+            .fourth-div
+            {
+                background-image: url('images2/banner2.png');
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                color: white;
+                text-align: center;
+            }
+            .fourth-div h5
+            {
+                margin-top: 130px;
+            }
+            .fourth-div h2
+            {
+                color: rgba(12, 12, 12, 0.692);
+                font-weight: bold;
+                margin-top: 10px;
+                margin-bottom: 30px;
+            }
+            .fourth-div p
+            {
+                color: grey;
+                font-weight: lighter;
+                padding: 0px 30px;
+                padding-bottom: 100px;
+            }
+            .fourth-div img
+            {
+                height: 200px;
+                width: 230px;
+                margin-top: 20px;
+            }
+            .quality
+            {
+                background-color: white;
+                margin-bottom: 150px;
+                padding: 0px 30px;
+            }
+            .customization
+            {
+                background-color: white;
+                margin-bottom: 150px;
+                padding: 0px 30px;
+            }
+            .success
+            {
+                background-color: white;
+                margin-bottom: 150px;
+                padding: 0px 30px;
+            }
+            .fifth-div
+            {
+                margin-top: 40px;
+                margin-bottom: 40px;
+            }
+            .fifth-div h5
+            {
+                color: orange;
+                margin-top: 25px;
+            }
+            .fifth-div h2
+            {
+                color: grey;
+                font-size: 40px;
+                font-weight: bold;
+                margin-top: 45px;
+                margin-bottom: 30px;
+            }
+            .fifth-div h1
+            {
+                color: rgba(12, 12, 12, 0.692);
+                font-weight: bold;
+            }
+            .card3
+            {
+                float: right;
+                position: relative;
+                z-index: 1;
+                margin-top: 30px;
+                margin-right: 90px;
+            }
+            .card3 img
+            {
+                box-shadow: 3px 3px 8px 0px lightgray;
+            }
+            .fifth-left
+            {            
+                position: relative;
+                z-index: 2;
+                margin-left: 180px;
+            }
+            .shortcard
+            {
+                display: inline-flex;
+            }
+            .shortcard img
+            {
+                box-shadow: 3px 3px 8px 0px lightgray;
+            }
+            .shortcard2
+            {
+                margin-left: 10px;
+            }
+            .sixth-div
+            {
+                background-image: url('images2/banner3.png');
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                color: white;
+                text-align: center;
+            }
+            .sixth-div h1
+            {
+                font-size: 60px;
+                font-weight: bold;
+                margin-top: 180px;
+                margin-bottom: 20px;
+            }
+            .button
+            {
+                margin-top: 50px;
+                margin-bottom: 80px;
+            }
+            .button a
+            {
+                border: 1px solid white;
+                color: white;
+                font-size: 30px;
+                text-decoration: none;
+                padding: 10px 60px;
+            }
+            .footer-navbar
+            {
+                background-color: rgb(255, 145, 0);
+                color: white;
+            }
+            .logo2 img
+            {
+                height: 100px;
+                width: 100px;
+            }
+            .menu2
+            {
+                color: white;
+                float: right;
+            }
+            .menu2 ul
+            {
+                list-style: none;
+                display: inline-flex;
+                padding-top: 30px;
+            }
+            .menu2 ul a
+            {
+                text-decoration: none;
+                color: white;
+            }
+            .menu2 ul li
+            {
+                padding: 10px 20px;
+            }
+            .info
+            {
+                color: grey;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            .info-right
+            {
+                float: right;
+            }
+            @media only screen and (min-width:320px) and (max-width:500px)
+            {
+            .first-div
+            {
+                background-image: url('images2/banner4.png');
+            }    
+            .logo
+            {
+                text-align: center;
+            }
+            .menu ul
+            {
+                display: none;
+            }
+            .line1
+            {
+                margin-left: 44%;
+            }
+            .card1
+            {
+                margin-left: unset;
+            }
+            .card1 img
+            {
+                height:auto;
+                width: 100%;
+            }
+            .box2
+            {
+                margin-left: unset;
+                margin-top: unset;
+            }
+            .card2 img
+            {
+                height: auto;
+                width: 100%;
+            }
+            .fourth-div
+            {
+                background-image: url('images2/banner5.png');
+            }
+            .line2
+            {
+                margin-left: 44%;
+            }
+            .success
+            {
+                margin-bottom: 180px;
+            }
+            .fifth-left
+            {
+                margin-left: unset;
+            }
+            .fifth-left h2
+            {
+                display: none;
+            }
+            .shortcard img
+            {
+                height: auto;
+                width: 100%;
+            }
+            .shortcard2
+            {
+                margin-left: unset;
+            }
+            .card3
+            {
+                float: unset;
+                margin-top: 10px;
+                margin-right: unset;
+            }
+            .card3 img
+            {
+                height: auto;
+                width: 100%;
+            }
+            .sixth-div
+            {
+                background-image: url('images2/banner6.png');
+            }
+            .logo2
+            {
+                text-align: center;
+            }
+            .menu2
+            {
+                float: unset;
+                text-align: center;
+                margin-right: 35px;
+            }   
+            .menu2 ul
+            {
+                display: block;
+                padding-top: unset;
+            }
+            .info
+            {
+                text-align: center;
+            }
+            .info-right
+            {
+                float: unset;
+            }
+            .grid
+            {
+                display: grid;
+            }
+            .grid1
+            {
+                order: 2;
+            }
+            .grid2
+            {
+                order: 1;
+            }
+
+
+
+
+
+
+
+            }
+        </style>
+    </head>
+    <body>
+        <div class="first-div">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <div class="logo">
+                            <img src="images2/logo.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <div class="menu">
+                            <ul>
+                                <a href="Baselli Web Page.html"><li>Home</li></a>
+                                <a href="About Us Page.html"><li>About US</li></a>
+                                <a href="Product Web Page.html"><li>Products</li></a>
+                                <a href="Trust Web Page.html"><li>Trust</li></a>
+                                <a href="FAQ Web Page.html"><li>FAQ</li></a>
+                                <a href="Contact Us Page.html"><li>Contact US</li></a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="heading">
+                        <h1>About Us</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="second-div">
+            <div class="container">
+                <div class="row">
+                    <h5>Title Here</h5>
+                    <h1>Our Story</h1>
+                    <div class="line1"></div>
+                    <p>Lorem Ipsum dolor sit amet,
+                        consectetur adipisicing 
+                        elit, sed magna eiusmod 
+                        tempor incididunt ut labore et
+                        dolore magna aliqua.
+                        Ut enim ad minim veniam quis
+                        nostured exercitation ullamco 
+                        laboris nisi ut aliquip ex
+                        ea commodo consequent.
+                        Ut enim ad minim veniam quis
+                        nostured exercitation ullamco 
+                        laboris nisi ut aliquip ex
+                        ea commodo consequent.
+                        Lorem Ipsum dolor sit amet,
+                        consectetur adipisicing 
+                        elit, sed magna eiusmod 
+                        tempor incididunt ut labore et
+                        dolore magna aliqua.</p>
+                </div>
+                <div class="row" style="margin-top: 30px;">
+                    <div class="col-12 col-md-6">
+                        <div class="box1">
+                            <h5>Title Here</h5>
+                            <h1>Our Mission</h1>
+                            <div style="height: 4px;width: 50px;background-color: orange;margin-bottom: 30px;margin-top: 10px;"></div>
+                            <h4>Lorem Ipsum dolor sit amet,
+                                consectetur adipisicing 
+                                elit, sed magna eiusmod 
+                                tempor incididunt ut labore et
+                                dolore magna aliqua.</h4>
+                                <p>Lorem Ipsum dolor sit amet,
+                                consectetur adipisicing 
+                                elit, sed magna eiusmod 
+                                tempor incididunt ut labore et
+                                dolore magna aliqua.
+                                Lorem Ipsum dolor sit amet,
+                                consectetur adipisicing 
+                                elit, sed magna eiusmod 
+                                tempor incididunt ut labore et
+                                dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="card1">
+                            <img src="images2/card1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="third-div">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="card2">
+                            <img src="images2/card2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="box2">
+                            <h5>Title Here</h5>
+                            <h1>Our Vision</h1>
+                            <div style="height: 4px;width: 50px;background-color: orange;margin-bottom: 30px;margin-top: 10px;"></div>
+                            <h4>Lorem Ipsum dolor sit amet,
+                                consectetur adipisicing 
+                                elit, sed magna eiusmod 
+                                tempor incididunt ut labore et
+                                dolore magna aliqua.</h4>
+                                <p>Lorem Ipsum dolor sit amet,
+                                consectetur adipisicing 
+                                elit, sed magna eiusmod 
+                                tempor incididunt ut labore et
+                                dolore magna aliqua.
+                                Lorem Ipsum dolor sit amet,
+                                consectetur adipisicing 
+                                elit, sed magna eiusmod 
+                                tempor incididunt ut labore et
+                                dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fourth-div">
+            <div class="container">
+                <div class="row">
+                    <h5>Title Here</h5>
+                    <h1>We Value</h1>
+                    <div class="line2"></div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <div class="quality">
+                            <img src="images2/quality.png" alt="">
+                            <h2>Quality</h2>
+                            <p>Lorem Ipsum dolor sit amet,
+                                consectetur adipisicing 
+                                elit, sed magna eiusmod 
+                                tempor incididunt ut labore et
+                                dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="customization">
+                            <img src="images2/customization.png" alt="">
+                            <h2>Customization</h2>
+                            <p>Lorem Ipsum dolor sit amet,
+                                consectetur adipisicing 
+                                elit, sed magna eiusmod 
+                                tempor incididunt ut labore et
+                                dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="success">
+                            <img src="images2/success.png" alt="">
+                            <h2>Success</h2>
+                            <p>Lorem Ipsum dolor sit amet,
+                                consectetur adipisicing 
+                                elit, sed magna eiusmod 
+                                tempor incididunt ut labore et
+                                dolore magna aliqua.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fifth-div">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <div class="fifth-left">    
+                            <h5>Title Here</h5>
+                            <h1>Manufacturing Plant</h1>
+                            <div style="height: 4px;width: 50px;background-color: orange;margin-bottom: 30px;margin-top: 10px;"></div>
+                            <h2> < > </h2>
+                            <div class="shortcard">
+                                <div class="shortcard1">
+                                    <img src="images2/shortcard1.png" alt="">
+                                </div>
+                                <div class="shortcard2">
+                                    <img src="images2/shortcard2.png" alt="">
+                                </div>    
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <div class="card3">
+                            <img src="images2/card3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sixth-div">
+            <div class="container">
+                <div class="row">
+                    <h1>Learn More About Us</h1>
+                    <p>Lorem ipsum dolor sit amet,consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt
+                    </p>
+                    <div class="button">
+                        <a href="">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-navbar">
+            <div class="container">
+                <div class="row grid">
+                    <div class="col-12 col-md-4 grid1">
+                        <div class="logo2">
+                            <img src="images2/logo.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-8 grid2">
+                        <div class="menu2">
+                            <ul>
+                                <a href="Baselli Web Page.html"><li>Home</li></a>
+                                <a href="About Us Page.html"><li>About US</li></a>
+                                <a href="Product Web Page.html"><li>Products</li></a>
+                                <a href="Trust Web Page.html"><li>Trust</li></a>
+                                <a href="FAQ Web Page.html"><li>FAQ</li></a>
+                                <a href="Contact Us Page.html"><li>Contact US</li></a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="info">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>@2019 All Rights Reserved</p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="info-right">
+                            <p>Terms & Conditions | Privacy Policy</p>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

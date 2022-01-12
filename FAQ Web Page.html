@@ -1,0 +1,444 @@
+<html>
+    <head>
+        <title>
+            FAQ Web Page
+        </title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <style>
+        .first-div
+        {
+            background-image: url('images5/banner1.png');
+            background-size: 100% 100%;
+            color: white;
+        }
+        .first-div h1
+        {
+            font-size: 70px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 100px;
+            margin-bottom: 300px;
+        }    
+        .logo img
+        {
+            height: 100px;
+            width: 100px;
+        }
+        .menu
+        {
+            float: right;
+            margin-top: 20px;
+        }
+        .menu ul
+        {
+            list-style: none;
+            display: inline-flex;
+        }
+        .menu ul a
+        {
+            text-decoration: none;
+            color: white;
+        }
+        .menu ul li
+        {
+            padding: 10px 20px;
+        }
+        .second-div
+        {
+            text-align: center;
+        }
+        .second-div h5
+        {
+            color: orange;
+        }
+        .second-div h1
+        {
+            font-weight: bold;
+            color: rgba(12, 12, 12, 0.692);
+        }
+        .third-div
+        {
+            margin-top: 40px;
+        }
+        .third-div h2
+        {
+            font-weight: bold;
+            color: rgba(12, 12, 12, 0.692);
+        }
+        .inner-third
+        {
+            margin-top: 20px;
+            padding: 20px 30px 30px 30px;
+            border: 1px solid white;
+            box-shadow: 0px 0px 5px 3px #ccc;
+        }
+        .inner-third h5
+        {
+            padding-bottom: 20px;
+            font-weight: bold;
+            border-bottom: 3px solid lightgrey;
+            color: rgba(12, 12, 12, 0.692);
+        }
+        .inner-third p
+        {
+            color: grey;
+        }
+        .menu2
+        {
+            margin-left: 20px;
+            color: grey;
+        }
+        .menu2 li
+        {
+            padding: 5px 0px;
+        }
+        .questions
+        {
+            border: 1px solid white;
+            box-shadow: 0px 0px 5px 3px #ccc;
+            font-weight: bold;
+            padding: 20px 30px 20px 30px;
+            color: rgba(12, 12, 12, 0.692);
+            margin-top: 20px;
+            margin-left: 12px;
+            width: 98%;
+        }
+        .fourth-div
+        {
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+        .fourth-div h2
+        {
+            font-weight: bold;
+            color: rgba(12, 12, 12, 0.692);
+        }
+        .inner-fourth h5
+        {
+            border: 1px solid white;
+            box-shadow: 0px 0px 5px 3px #ccc;
+            font-weight: bold;
+            padding: 20px 30px 20px 30px;
+            color: rgba(12, 12, 12, 0.692);
+            margin-top: 20px;
+        }
+        .fifth-div
+        {
+            margin-top: 40px;
+            margin-bottom: 80px;
+        }
+        .fifth-div h2
+        {
+            font-weight: bold;
+            color: rgba(12, 12, 12, 0.692);
+        }
+        .inner-fifth h5
+        {
+            border: 1px solid white;
+            box-shadow: 0px 0px 5px 3px #ccc;
+            font-weight: bold;
+            padding: 20px 30px 20px 30px;
+            color: rgba(12, 12, 12, 0.692);
+            margin-top: 20px;
+        }
+        .sixth-div
+        {
+            background-image: url('images5/banner2.png');
+            background-size: 100% 100%;
+            margin-top: 40px;
+            color: white;
+            text-align: center;
+        }
+        .sixth-div h1
+        {
+            font-size: 70px;
+            font-weight: bold;
+            margin-top: 100px;
+            margin-bottom: 20px;
+        }
+        .sixth-div p
+        {
+            width: 50%;
+            margin-left: 280px;
+        }
+        .b1
+        {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        .b1 a
+        {
+            color: white;
+            border: 1px solid white;
+            padding: 15px 55px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        .footer-navbar
+        {
+            text-align: left;
+        }
+        .logo2 img
+        {
+            height: 100px;
+            width: 100px;
+        }
+        .menu3
+        {
+            float: right;
+            margin-top: 30px;
+        }
+        .menu3 ul
+        {
+            list-style: none;
+            display: inline-flex;
+        }
+        .menu3 ul a
+        {
+            text-decoration: none;
+            color: white;
+        }
+        .menu3 ul li
+        {
+            padding: 10px 20px;
+        }
+        .info
+        {
+            color: grey;
+            margin-top: 10px;
+        }
+        .info-right
+        {
+            float: right;
+        }
+        @media only screen and (min-width:320px) and (max-width:500px)
+        {
+            .first-div
+            {
+                background-image: url('images5/banner3.png');
+            }
+            .center
+            {
+                text-align: center;
+            }
+            .menu
+            {
+                display: none;
+            }
+            .questions
+            {
+                padding: 20px 10px 20px 10px;
+                margin-left: 10px;
+                width: 95%;
+            }
+            .inner-fourth h5
+            {
+                padding: 20px 10px 20px 10px;
+            }
+            .sixth-div p
+            {
+                width: 100%;
+                margin-left: unset;
+            }
+            .menu3
+            {
+                float: unset;
+            }
+            .menu3 ul
+            {
+                display: inline-block;
+                margin-left: -40px;
+            }
+            .grid
+            {
+                display: grid;
+            }
+            .grid2
+            {
+                order: 2;
+            }
+            .grid1
+            {
+                order: 1;
+            }
+            .info
+            {
+                text-align: center;
+            }
+            .info-right
+            {
+                float: unset;
+            }
+
+
+
+
+
+        }
+        </style>
+    </head>
+    <body>
+        <div class="first-div">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4 center">
+                        <div class="logo">
+                            <img src="images5/logo.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <div class="menu">
+                            <ul>
+                                <a href="Baselli Web Page.html"><li>Home</li></a>
+                                <a href="About Us Page.html"><li>About US</li></a>
+                                <a href="Product Web Page.html"><li>Products</li></a>
+                                <a href="Trust Web Page.html"><li>Trust</li></a>
+                                <a href="FAQ Web Page.html"><li>FAQ</li></a>
+                                <a href="Contact Us Page.html"><li>Contact US</li></a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <h1>FAQ</h1>
+                </div>
+            </div>
+        </div>
+        <div class="second-div">
+            <div class="container">
+                <div class="row">
+                    <h5>Frequently Asked Questions</h5>
+                    <h1>How Can We Help?</h1>
+                    <div style="height: 4px;width: 50px;background-color: orange;margin-bottom: 30px;margin-top: 20px;margin-left: 48%;"></div>
+                </div>
+            </div>
+        </div>
+        <div class="third-div">
+            <div class="container">
+                <div class="row">
+                    <h2>Top Questions</h2>
+                </div>
+                <div class="inner-third">
+                    <div class="row">
+                        <h5>Lorem ipsum dolor sit amet,consectetur?</h5>
+                        <p>Lorem Ipsum dolor sit amet,
+                            consectetur adipisicing 
+                            elit, sed magna eiusmod 
+                            tempor incididunt ut labore et
+                            dolore magna aliqua.
+                            Ut enim ad minim veniam quis
+                            nostured exercitation ullamco 
+                            laboris nisi ut aliquip ex
+                            ea commodo consequent.
+                            Lorem Ipsum dolor sit amet,
+                            consectetur adipisicing 
+                            elit, sed magna eiusmod 
+                            tempor incididunt ut labore et
+                            dolore magna aliqua.
+                        </p>
+                        <ul class="menu2">
+                            <li>Excepteur sint occaecat cupidatat non proident,sunt in culpa.</li>
+                            <li>Excepteur sint occaecat cupidatat non proident,sunt in culpa.</li>
+                            <li>Excepteur sint occaecat cupidatat non proident,sunt in culpa.</li>
+                        </ul>
+                        <p>Lorem Ipsum dolor sit amet,
+                            consectetur adipisicing 
+                            elit, sed magna eiusmod 
+                            tempor incididunt ut labore et
+                            dolore magna aliqua.
+                            Ut enim ad minim veniam quis
+                            nostured exercitation ullamco 
+                            laboris nisi ut aliquip ex
+                            ea commodo consequent.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <h5 class="questions">Lorem ipsum dolor sit amet,consectetur?</h5>
+                <h5 class="questions">Lorem ipsum dolor sit amet,consectetur?</h5>
+                <h5 class="questions">Lorem ipsum dolor sit amet,consectetur?</h5>
+            </div>
+        </div>
+        <div class="fourth-div">
+            <div class="container">
+                <div class="row">
+                    <h2>Info and Details</h2>
+                    <div class="inner-fourth">
+                        <h5>Lorem ipsum dolor sit amet,consectetur?</h5>
+                        <h5>Lorem ipsum dolor sit amet,consectetur?</h5>
+                        <h5>Lorem ipsum dolor sit amet,consectetur?</h5>
+                        <h5>Lorem ipsum dolor sit amet,consectetur?</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fifth-div">
+            <div class="container">
+                <div class="row">
+                    <h2>Billing Info</h2>
+                    <div class="inner-fifth">
+                        <h5>Lorem ipsum dolor sit amet,consectetur?</h5>
+                        <h5>Lorem ipsum dolor sit amet,consectetur?</h5>
+                        <h5>Lorem ipsum dolor sit amet,consectetur?</h5>
+                        <h5>Lorem ipsum dolor sit amet,consectetur?</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sixth-div">
+            <div class="container">
+                <div class="row">
+                    <h1>You Still Have Question?</h1>
+                    <p>If you cannot find answer to your question in our FAQ,
+                        you can always contact us.We will asnwer to you Shortly!
+                    </p>
+                    <div class="b1">
+                        <a href="">Contact Us</a>
+                    </div>
+                </div>
+                <div class="footer-navbar">
+                    <div class="row center grid">
+                        <div class="col-12 col-md-4 grid2">
+                            <div class="logo2">
+                                <img src="images5/logo.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-8 grid1">
+                            <div class="menu3">
+                                <ul>
+                                    <a href="Baselli Web Page.html"><li>Home</li></a>
+                                    <a href="About Us Page.html"><li>About US</li></a>
+                                    <a href="Product Web Page.html"><li>Products</li></a>
+                                    <a href="Trust Web Page.html"><li>Trust</li></a>
+                                    <a href="FAQ Web Page.html"><li>FAQ</li></a>
+                                    <a href="Contact Us Page.html"><li>Contact US</li></a>                             
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+        <div class="info">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>@2019 All Rights Reserved</p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="info-right">
+                            <p>Terms & Conditions | Privacy Policy</p>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
